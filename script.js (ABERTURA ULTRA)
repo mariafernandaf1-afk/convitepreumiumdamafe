@@ -1,0 +1,8 @@
+function abrirConvite() {
+  document.getElementById("capa").classList.remove("ativa");
+  document.getElementById("convite").classList.add("ativa");
+
+  // 🎵 som opcional
+  // let audio = new Audio("https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a8.mp3");
+  // audio.play();
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>MAFÊ 18 • Convite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<!-- CAPA -->
+<div id="capa" class="tela ativa">
+
+  <h1>CONVITE ESPECIAL</h1>
+
+  <div class="envelope" onclick="abrirConvite()">
+    ✉️
+  </div>
+
+  <p class="clique">CLIQUE PARA ABRIR</p>
+
+  <div class="discos"></div>
+
+</div>
+
+<!-- CONVITE -->
+<div id="convite" class="tela">
+
+  <div class="card">
+
+    <h2 class="nome">MAFÊ</h2>
+    <div class="idade">18</div>
+
+    <img src="foto.jpg" class="foto">
+
+    <p class="data">25 de Julho de 2026 • 20:00h</p>
+
+    <div class="box">
+      <h3>📍 Local</h3>
+      <p>Sítio do Tio Nivaldo - MG</p>
+      <a class="btn" href="https://www.google.com/maps" target="_blank">Ver mapa</a>
+    </div>
+
+    <div class="box">
+      <h3>👗 Dress Code</h3>
+      <p>ALL BLACK PARTY</p>
+    </div>
+
+    <div class="box">
+      <h3>🎵 Playlist</h3>
+      <a class="btn" href="https://open.spotify.com" target="_blank">Abrir Spotify</a>
+    </div>
+
+    <div class="box">
+      <h3>💌 Confirmação</h3>
+      <a class="btn green"
+         href="https://wa.me/55SEUNUMEROAQUI?text=Confirmo%20presença%20🎉">
+         Confirmar presença
+      </a>
+    </div>
+
+    <p class="final">CONTO COM VOCÊ ✨</p>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
